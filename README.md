@@ -15,7 +15,7 @@ API RESTful para consulta de dados do OMDB, com endpoints para buscar itens indi
 
 ```bash
 # Clone o projeto
-git
+git clone git@github.com:EndriuWilian/privtoolflix.git
 
 ```
 
