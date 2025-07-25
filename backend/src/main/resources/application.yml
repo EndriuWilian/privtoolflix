@@ -1,0 +1,27 @@
+server:
+  port: 8090
+
+spring:
+  cache:
+    cache-names: cacheItens,cacheLista,cacheTemporada
+    caffeine:
+      spec: maximumSize=300,expireAfterWrite=12h
+
+api:
+  key: ${API_KEY:chaveIndefinida}
+
+springdoc:
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+  api-docs:
+    enabled: true
+
+resilience4j.ratelimiter:
+  instances:
+    consultaOmdbLimiter:
+      limitForPeriod: 5
+      limitRefreshPeriod: 10s
+      timeoutDuration: 0ms
+
+
