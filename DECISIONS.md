@@ -77,3 +77,4 @@ estão sendo usado em todas as telas, o mesmo componente, facilitando a futura m
 - Algumas telas do front estarão com comentários explicando listas fixadas manualmente. Isso é por conta da API do OMDb não ter endpoint para lista\
 de filmes 'em alta' ou etc. Com isso, para ter uma variedade ali, foi fixado uma lista, simulando que viesse de uma 'API' externa por exemplo. Então, \
 de melhoria, nesse item, poderia ter criado ele como um serviço JS ao invés de deixar no próprio JSX.
+- Volume de requisições JS ao Backend (se deve ao motivo da consulta detalhada (com nota) só ser possível via endpoint individual no OMDb, porém tem que avaliar uma lógica pra não ocorrer tanta chamada AJAX ao backend)

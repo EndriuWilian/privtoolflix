@@ -1,6 +1,6 @@
-# PrivToolFlix API
+# PrivToolFlix
 
-API RESTful para consulta de dados do OMDB, com endpoints para buscar itens individuais, listas e temporadas de séries (com detalhe dos episódios).
+Projeto PrivToolFlix para consulta de dados do OMDB, com endpoints para buscar itens individuais, listas e temporadas de séries (com detalhe dos episódios) em backend, sendo consultados por frontend em ReactJS Vite.
 
 ## Tecnologias
 - Java 17
@@ -12,6 +12,8 @@ API RESTful para consulta de dados do OMDB, com endpoints para buscar itens indi
 - TailwindCSS
 
 ## Como executar:
+
+**OBS.:***É necessário obter o serviço Docker instalado*
 
 ```bash
 # Clone o projeto
